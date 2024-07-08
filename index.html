@@ -21,16 +21,32 @@
         <input type="text" alt="Texto Del Usuario" id="textoUsuario" placeholder="Ingrese su texto aqui">
     </div>
 
+    <!-- <div id="AdvertenciaDeQueUsar">
+        <p>Solo se admiten letras minusculas y sin acentos</p>
+    </div> -->
 
     <!--BOTONES-->
     <div class="container_botones">
-        <button onclick="" class="botones fondoAzul">Encriptar</button>
-        <button onclick="" class="botones fondoGris">Desencriptar</button>
+        <button type="button" onclick="miEncriptar()" class="botones fondoAzul" id="encriptar">Encriptar</button>
+        <button type="button" onclick="miDesencriptar()" class="botones fondoGris" id="desencriptar">Desencriptar</button>
     </div>
 
     <!--PANTALLA PARA MOSTRAR EL TEXTO ENCRIPTADO-->
     <div id="pantallaParaMostrarTexto">
-        <img src="images/Muñeco.png" alt="muñeco">
+        <!--MOSTRAR ENCRIPTACION/DESENCRIPTACION-->
+        <input type="text" class="text-input-salida" id="mensaje">
+            <!--BOTON COPIAR-->
+
+        <!--IMAGEN MUÑECO-->
+        <img src="images/Muñeco.png" alt="muñeco" class="imagenMuñeco">
+        <!--MENSAJE NO ENCONTRADO-->
+        <div class="mensajeNoEncontrado">
+            <h3><b>Ningún mensaje fue encontrado</b></h3>
+        </div>
+        <!--SUGERENCIA DE INGRESAR UN TEXTO ECNRIPTAR/DESENCRIPTAR-->
+        <div class="container_sugerenciaDeIngresartexto">
+            <p id="parrafoIngreseTexto">ingrese el texto que desea encriptar o desencriptar</p>
+        </div>
     </div>
 
 

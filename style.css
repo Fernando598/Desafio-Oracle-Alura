@@ -8,20 +8,24 @@ body {
     background-color: rgb(221, 220, 220);
 }
 
+/*POSICION DEL LOGO*/
 #logo{
     position: absolute;
     top: 30px;
     left: 20px;
 }
 
-
+/*POSICION DEL INGRESO DE TEXTO DEL USUARIO*/
 #container_ingresarTexto {
     position: relative;
     top: 168px;
     left: 380px;
 }
 
+
+/*DETALLES DEL CUADRO DE INGRESAR TEXTO DEL USUARIO*/
 #textoUsuario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 500px;
     height: 50px;
     font-size: 20px;
@@ -31,7 +35,16 @@ body {
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
 }
 
+/* #advertenciaDeQueUsar {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 168px;
+    left: 380px;
+    border:1px solid black;
+} */
 
+/*POSICIONAMIENTO DE BOTONES*/
 .container_botones {
     width: 650px;
     display: flex;
@@ -42,16 +55,19 @@ body {
     left: 300px;
 }
 
+/*DETALLES DEL BOTON ENCRIPTAR*/
 .fondoAzul{
     background-color:rgb(8, 8, 104);
     color:white;
 }
 
+/*DETALLES DEL BOTON DESENCRIPTAR*/
 .fondoGris {
     background-color: rgb(177, 177, 177);
     color:blue;
 }
 
+/*DETALLES DE AMBOS BOTONES*/
 .botones{
     display: flex;
     width: 300px;
@@ -63,6 +79,7 @@ body {
     border-color: rgb(8, 8, 104);
 }
 
+/*POSICION Y DETALLES DE PANTALLA PARA MOSTRAR EL ENCRIPTAMIENTO Y DESENCRIPTAMIENTO DELTEXTO*/
 #pantallaParaMostrarTexto {
     /* INSERTANDO POSICION DESEADA */
     position: absolute;
@@ -74,7 +91,7 @@ body {
     width: 350px;
     height: 650px;
     border: 1px solid black;
-    /* CENTRAR EL CONTENIDO DENTRO DEL CONTENEDOR */
+    /* CENTRA EL CONTENIDO DENTRO DEL CONTENEDOR*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +100,38 @@ body {
     box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
 }
 
+/*POSICION DEL MUÑECO*/
+.imagenMuñeco {
+    width: 280px;
+    position: relative;
+    bottom: 120px;
+    margin: 10px;
+}
+
+/*MENSAJE: NINGUN MENSAJE FUE ENCONTRADO*/
+.mensajeNoEncontrado {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 80px;
+    top: 350px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.container_sugerenciaDeIngresartexto{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top:400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); */
+    /* filter: blur(0.3px); */
+}
 
 /* #pieDePagina {
     margin:30px;
