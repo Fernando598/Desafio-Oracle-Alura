@@ -4,35 +4,55 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(127, 26, 221);
 }
 
 #textoUsuario {
-    /* 
-    PENDIENTE PONER EL TIPO DE LETRA
-    font-family: inter;
-     */
     width: 500px;
-    height: 400px;
+    height: 50px;
+    position: relative;
     top: 168px;
     left: 240px;
-    font-size: 60px;
-    border-radius: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(106, 106, 106);
+    text-align: justify;
 }
 
 .boton {
     display: flex;
-    width: 680px;
+    width: 300px;
     height: 67px;
     border-radius: 15px;
     left: 240px;
     gap: 24px;
-    align-items: center;
+}
+
+#pantallaParaMostrarTexto {
+    /* INSERTANDO POSICION DESEADA */
+    position: absolute;
+    top: 40px;
+    margin: auto;
+    padding: 15px;
+    /* REDONDEA EL CUADRO */
+    border-radius: 20px;
+    width: 250px;
+    height: 650px;
+    border: 2px solid black;
+    /* CENTRAR EL CONTENIDO DENTRO DEL CONTENEDOR */
+    display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    left: 1200px;
+    overflow: auto;
 }
 
 
+
+
+#pieDePagina {
+    margin:30px;
+}
 
 
 
