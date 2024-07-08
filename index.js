@@ -1,29 +1,51 @@
 function miEncriptar(){
-    let texto = document.getElementById("#textoUsuario").value;
+    let texto = document.getElementById("textoUsuario").value;
+    console.log(texto);
     let textoCifrado = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
+    console.log(textoCifrado);
     document.querySelector(".text-input-salida").value = textoCifrado;
-    document.getElementById("#textoUsuario").value;
-}
-
-boton1 = document.addEventListener("#encriptar");
-boton1.addEventListener = encriptar;
+    document.querySelector("#textoUsuario").value;
+};
 
 function miDesencriptar(){
-    let texto = document.getElementById("#textUsuario").value;
+    let texto = document.getElementById("textoUsuario").value;
+    console.log(texto);
     let textoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
+    console.log(textoCifrado);
     document.querySelector(".text-input-salida").value = textoCifrado;
-    document.getElementById("#textoUsuario").value;
+    document.querySelector("#textoUsuario").value;
+};
 
+
+// FUNCIONES PARA ESCONDER COSAS
+ function esconder(){
+     document.getElementById("botones").style.display = "none";
+ }
+
+ function esconder2(){
+     document.getElementById("#desencriptar").style.visibility = "hidden";
 }
 
-let boton2 = document.getElementById("#desencriptar"); 
-boton2.onclick = desencriptar;
-
-
-// function esconder(){
-//     document.getElementById("#encriptar").style.display = "none";
+/////////////////////////////////////////////////////////////////////////
+// function miEncriptar(){
+//     let texto = document.getElementById("#textoUsuario").value;
+//     let textoCifrado = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
+//     document.querySelector(".text-input-salida").value = textoCifrado;
+//     document.getElementById("#textoUsuario").value;
 // }
 
-// function esconder(){
-//     document.getElementById("#desencriptar").style.visibility = "hidden";
+// boton1 = document.addEventListener("#encriptar");
+// boton1.addEventListener = encriptar;
+
+// function miDesencriptar(){
+//     let texto = document.getElementById("#textUsuario").value;
+//     let textoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
+//     document.querySelector(".text-input-salida").value = textoCifrado;
+//     document.getElementById("#textoUsuario").value;
+
 // }
+
+// let boton2 = document.getElementById("#desencriptar"); 
+// boton2.onclick = desencriptar;
+
+

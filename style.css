@@ -133,6 +133,13 @@ body {
     /* filter: blur(0.3px); */
 }
 
+#mensaje {
+    position: absolute;
+    top: 50px;
+    
+
+}
+
 /* #pieDePagina {
     margin:30px;
 } */
