@@ -8,6 +8,13 @@ body {
     background-color: rgb(221, 220, 220);
 }
 
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+
 #container_ingresarTexto {
     position: relative;
     top: 168px;
