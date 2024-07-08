@@ -3,22 +3,25 @@
     margin: 0;
 }
 
-body {
-    background-color: rgb(136, 22, 22);
+body { 
     width: 100%;
+    background-color: rgb(221, 220, 220);
+}
+
+#container_ingresarTexto {
+    position: relative;
+    top: 168px;
+    left: 380px;
 }
 
 #textoUsuario {
     width: 500px;
     height: 50px;
-    position: relative;
-    top: 168px;
-    left: 380px;
     font-size: 20px;
     border-radius: 10px; 
     color: rgb(106, 106, 106);
     text-align: justify;
-    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
 }
 
 
@@ -32,6 +35,16 @@ body {
     left: 300px;
 }
 
+.fondoAzul{
+    background-color:rgb(8, 8, 104);
+    color:white;
+}
+
+.fondoGris {
+    background-color: rgb(177, 177, 177);
+    color:blue;
+}
+
 .botones{
     display: flex;
     width: 300px;
@@ -40,6 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 23px;
+    border-color: rgb(8, 8, 104);
 }
 
 #pantallaParaMostrarTexto {
@@ -52,21 +66,20 @@ body {
     border-radius: 20px;
     width: 350px;
     height: 650px;
-    border: 2px solid black;
+    border: 1px solid black;
     /* CENTRAR EL CONTENIDO DENTRO DEL CONTENEDOR */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: auto;
-    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
 }
 
 
-
-
-#pieDePagina {
+/* #pieDePagina {
     margin:30px;
-}
+} */
 
 
 
