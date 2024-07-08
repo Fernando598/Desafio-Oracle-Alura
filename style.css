@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(127, 26, 221);
+    background-color: rgb(136, 22, 22);
+    width: 100%;
 }
 
 #textoUsuario {
@@ -12,39 +13,52 @@ body {
     height: 50px;
     position: relative;
     top: 168px;
-    left: 240px;
+    left: 380px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 10px; 
     color: rgb(106, 106, 106);
     text-align: justify;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.5);
 }
 
-.boton {
+
+.container_botones {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 500px;
+    left: 300px;
+}
+
+.botones{
     display: flex;
     width: 300px;
     height: 67px;
-    border-radius: 15px;
     left: 240px;
-    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
 }
 
 #pantallaParaMostrarTexto {
     /* INSERTANDO POSICION DESEADA */
     position: absolute;
     top: 40px;
-    margin: auto;
+    left: 1100px;
     padding: 15px;
     /* REDONDEA EL CUADRO */
     border-radius: 20px;
-    width: 250px;
+    width: 350px;
     height: 650px;
     border: 2px solid black;
     /* CENTRAR EL CONTENIDO DENTRO DEL CONTENEDOR */
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 1200px;
     overflow: auto;
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
 }
 
 
