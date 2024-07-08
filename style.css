@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+#textoUsuario {
+    /* 
+    PENDIENTE PONER EL TIPO DE LETRA
+    font-family: inter;
+     */
+    width: 500px;
+    height: 400px;
+    top: 168px;
+    left: 240px;
+    font-size: 60px;
+    border-radius: 15px;
+}
+
+.boton {
+    display: flex;
+    width: 680px;
+    height: 67px;
+    border-radius: 15px;
+    left: 240px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
