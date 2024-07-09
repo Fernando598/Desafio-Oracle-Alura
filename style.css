@@ -136,9 +136,11 @@ body {
 #mensaje {
     position: absolute;
     top: 50px;
-    
-
 }
+
+/* .text-input-salida {
+
+} */
 
 /* #pieDePagina {
     margin:30px;

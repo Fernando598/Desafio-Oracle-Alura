@@ -18,34 +18,13 @@ function miDesencriptar(){
 
 
 // FUNCIONES PARA ESCONDER COSAS
- function esconder(){
-     document.getElementById("botones").style.display = "none";
- }
+//  const esconder = () => {
+//      document.querySelector('botones').style.display = "none";
+//      document.getElementById('imagen').style.display = "none";
+//      document.getElementById('1').style.display = "none";
 
- function esconder2(){
-     document.getElementById("#desencriptar").style.visibility = "hidden";
-}
+//  }
 
-/////////////////////////////////////////////////////////////////////////
-// function miEncriptar(){
-//     let texto = document.getElementById("#textoUsuario").value;
-//     let textoCifrado = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
-//     document.querySelector(".text-input-salida").value = textoCifrado;
-//     document.getElementById("#textoUsuario").value;
-// }
-
-// boton1 = document.addEventListener("#encriptar");
-// boton1.addEventListener = encriptar;
-
-// function miDesencriptar(){
-//     let texto = document.getElementById("#textUsuario").value;
-//     let textoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
-//     document.querySelector(".text-input-salida").value = textoCifrado;
-//     document.getElementById("#textoUsuario").value;
-
-// }
-
-// let boton2 = document.getElementById("#desencriptar"); 
-// boton2.onclick = desencriptar;
-
+//  const botones = document.querySelector('h3', 'imagenMuñeco');
+//  botones.addEventListener('click',esconder)
 
