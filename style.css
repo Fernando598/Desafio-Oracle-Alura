@@ -3,10 +3,26 @@
     margin: 0;
 }
 
-body { 
-    width: 100%;
-    background-color: rgb(221, 220, 220);
+/* @media (max-width:1605px) {
+    body { 
+        width: 100%;
+        background-color: rgb(221, 220, 220);
+    }
 }
+
+@media (max-width:992px) {
+    body { 
+        width: 100%;
+        background-color: rgb(221, 220, 220);
+    }
+}
+
+@media (max-width:778px) {
+    body { 
+        width: 100%;
+        background-color: rgb(221, 220, 220);
+    }
+} */
 
 /*POSICION DEL LOGO*/
 #logo{
